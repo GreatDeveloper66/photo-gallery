@@ -12,5 +12,8 @@ app.get('/api/hello', (req,res) => {
     res.send({ express: 'Hello from express on the hello route'})
 })
 
+app.get('/', (req,res) => {
+    res.send({ express: 'Hello welcome to the main route'})
+})
 
 app.listen(port, () => console.log(`Listening on port ${port}`))
