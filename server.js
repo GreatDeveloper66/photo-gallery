@@ -1,5 +1,5 @@
 import express from 'express'
-import * as bodyParser from 'body-parser'
+import bodyParser from 'body-parser'
 
 
 const app = express()
